@@ -22,20 +22,20 @@ public class GestionPacientes {
 	}
 	
 	
-	public Paciente insertarpaciente(String nombre, String esterelizado, String tamaño, String actividad, 
+	public Paciente insertarpaciente(String nombre, String esterelizado, String tamano, String actividad, 
 			double peso, String fchnac, String especie, String raza, String genero, 
 			String tiposangre, Cliente idCliente)
 	throws DAOExcepcion {
 
 
-validarDatosPaciente(nombre, esterelizado, tamaño, actividad, peso, fchnac, especie, raza, genero, tiposangre);
+validarDatosPaciente(nombre, esterelizado, tamano, actividad, peso, fchnac, especie, raza, genero, tiposangre);
 
 PacienteDAO dao = new PacienteDAO();
 
 Paciente vo = new Paciente();	
 vo.setNombre(nombre);
 vo.setEsterelizado(esterelizado);
-vo.setTamaño(tamaño);
+vo.setTamano(tamano);
 vo.setActividad(actividad);
 vo.setPeso(peso);
 vo.setFchnac(fchnac);
@@ -53,20 +53,20 @@ return dao.insertar(vo);
 	
 	/*
 
-	public Paciente insertar(String nombre, String esterelizado, String tamaño, String actividad, 
+	public Paciente insertar(String nombre, String esterelizado, String tamaï¿½o, String actividad, 
 					double peso, String fchnac, String especie, String raza, String genero, 
 					String tiposangre, int idCliente )
 			throws DAOExcepcion {
 		
 		
-		validarDatosPaciente(nombre, esterelizado, tamaño, actividad, peso, fchnac, especie, raza, genero, tiposangre);
+		validarDatosPaciente(nombre, esterelizado, tamaï¿½o, actividad, peso, fchnac, especie, raza, genero, tiposangre);
 	
 		PacienteDAO dao = new PacienteDAO();
 
 		Paciente vo = new Paciente();	
 		vo.setNombre(nombre);
 		vo.setEsterelizado(esterelizado);
-		vo.setTamaño(tamaño);
+		vo.setTamaï¿½o(tamaï¿½o);
 		vo.setActividad(actividad);
 		vo.setPeso(peso);
 		vo.setFchnac(fchnac);
@@ -93,7 +93,7 @@ return dao.insertar(vo);
 		dao.eliminar(idPaciente);
 	}
 	
-	public Paciente actualizar(int idPaciente, String nombre, String esterelizado, String tamaño, String actividad, 
+	public Paciente actualizar(int idPaciente, String nombre, String esterelizado, String tamano, String actividad, 
 			double peso, String fchnac, String especie, String raza, String genero, String tiposangre, Cliente idCliente)
 			 throws DAOExcepcion {
 		
@@ -104,7 +104,7 @@ return dao.insertar(vo);
 		vo.setIdPaciente(idPaciente);
 		vo.setNombre(nombre);
 		vo.setEsterelizado(esterelizado);
-		vo.setTamaño(tamaño);
+		vo.setTamano(tamano);
 		vo.setActividad(actividad);
 		vo.setPeso(peso);
 		vo.setFchnac(fchnac);
@@ -123,7 +123,7 @@ return dao.insertar(vo);
 	}
 	
 	
-    private void validarDatosPaciente(String nombre, String esterelizado, String tamaño, String actividad, 
+    private void validarDatosPaciente(String nombre, String esterelizado, String tamano, String actividad, 
 			double peso, String fchnac, String especie, String raza, String genero, String tiposangre) 
 		throws DAOExcepcion {
 
@@ -133,8 +133,8 @@ return dao.insertar(vo);
             arg0 = "- Nombre no puede ser vacio\n";
         if (esterelizado == null || esterelizado.isEmpty())
         	arg0 += "- El campo Esterilizado no puede ser vacio\n";
-        if (tamaño == null || tamaño.isEmpty())
-        	arg0 += "- El tamaño no puede ser vacio\n";
+        if (tamano == null || tamano.isEmpty())
+        	arg0 += "- El tamaï¿½o no puede ser vacio\n";
         if (actividad == null || actividad.isEmpty())
         	arg0 += "- El campo actividad no puede ser vacio\n";
         if (peso == 0 )

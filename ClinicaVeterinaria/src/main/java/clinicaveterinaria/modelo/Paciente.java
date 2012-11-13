@@ -8,7 +8,7 @@ public class Paciente {
 	private int idPaciente;
 	private String nombre;
 	private String esterelizado;
-	private String tamaño;
+	private String tamano;
 	private String actividad;
 	private double peso;
 	private String fchnac;
@@ -37,11 +37,12 @@ public class Paciente {
 	public void setEsterelizado(String esterelizado) {
 		this.esterelizado = esterelizado;
 	}
-	public String getTamaño() {
-		return tamaño;
+	
+	public String getTamano() {
+		return tamano;
 	}
-	public void setTamaño(String tamaño) {
-		this.tamaño = tamaño;
+	public void setTamano(String tamano) {
+		this.tamano = tamano;
 	}
 	public String getActividad() {
 		return actividad;
@@ -98,14 +99,14 @@ public class Paciente {
 	}
 	
 	public Paciente(int idPaciente, String nombre, String esterelizado,
-			String tamaño, String actividad, double peso, String fchnac,
+			String tamano, String actividad, double peso, String fchnac,
 			String especie, String raza, String genero, String tiposangre,
 			Cliente ocliente) {
 		super();
 		this.idPaciente = idPaciente;
 		this.nombre = nombre;
 		this.esterelizado = esterelizado;
-		this.tamaño = tamaño;
+		this.tamano = tamano;
 		this.actividad = actividad;
 		this.peso = peso;
 		this.fchnac = fchnac;

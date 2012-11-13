@@ -1,15 +1,17 @@
 <%@include file="main.jsp"%>
-<%@taglib uri="http://displaytag.sf.net" prefix="display"%><%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib uri="http://displaytag.sf.net" prefix="display"%>
 <%@page import="clinicaveterinaria.negocio.GestionTipoProducto"%>
 <%@page import="clinicaveterinaria.modelo.TipoProducto"%>
 <%@page import="java.util.Collection, clinicaveterinaria.excepcion.DAOExcepcion"%>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Lista de Productos</title>
+<title>VeterinariaGozus</title>
 <script type="text/javascript">
 function ocultarColumna(num,num2,ver) {
   dis= ver ? '' : 'none';
@@ -112,7 +114,7 @@ for(Producto x : arreglo) {
     <td><b><font face="Verdana" size="1" color=""><% out.print(x.getPrecio()); %></font></b></td>
     
     <td bgcolor="#BFEA77"><b><font face="Verdana" size="1" color="">
-    <div align="center"><a href="<%=request.getContextPath()%>/ProductoEliminarServlet?id=<%=x.getIdProducto()%>&tipo=<%=x.getoTipoProducto().getIdTipo()%>" onclick="return confirm('¿Está seguro que desea eliminar');">Eliminar</a></div>
+    <div align="center"><a href="<%=request.getContextPath()%>/ProductoEliminarServlet?id=<%=x.getIdProducto()%>&tipo=<%=x.getoTipoProducto().getIdTipo()%>" onclick="return confirm('ï¿½Estï¿½ seguro que desea eliminar');">Eliminar</a></div>
     </font></b></td>
     <td bgcolor="#BFEA77"><b><font face="Verdana" size="1" color="">
     <div align="center"><a href="<%=request.getContextPath() %>/ProductoEditarServlet?id=<%=x.getIdProducto() %>">Modificar

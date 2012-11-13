@@ -15,8 +15,7 @@
 <body>
     <body>
 
-<img src="_img/uno.jpg"/>
-<html:img src="_img/uno.JPG"/>
+<img src="img\uno.jpg"/>
 
 </body>
 </html>

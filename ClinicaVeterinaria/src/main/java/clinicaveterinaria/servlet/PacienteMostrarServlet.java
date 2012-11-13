@@ -63,7 +63,7 @@ public class PacienteMostrarServlet extends HttpServlet {
 
 		} catch (DAOExcepcion e) {
 
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 
 		}
 	}

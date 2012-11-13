@@ -43,7 +43,7 @@ public class GestionPacientesTest {
 			
 		
 			  
-			Paciente objpaciente = negociopaciente.insertarpaciente("Kafir", "S", "Mediano", "En las mañanas sale al parque", 15, "01/01/2012", "perro", "cocker spaniel", "Macho", "RH+", objcliente);
+			Paciente objpaciente = negociopaciente.insertarpaciente("Kafir", "S", "Mediano", "En las maï¿½anas sale al parque", 15, "01/01/2012", "perro", "cocker spaniel", "Macho", "RH+", objcliente);
 			
 			
 			
@@ -51,7 +51,7 @@ public class GestionPacientesTest {
 			
 			
 			
-			Paciente objpaciente1 = negociopaciente.insertarpaciente("Salvo", "S", "Pequeño", "Hogañero", 10, "01/05/2012", "perro", "sin raza", "Macho", "RH+", objcliente);
+			Paciente objpaciente1 = negociopaciente.insertarpaciente("Salvo", "S", "Pequeï¿½o", "Hogaï¿½ero", 10, "01/05/2012", "perro", "sin raza", "Macho", "RH+", objcliente);
 			
 			Assert.assertEquals("Salvo", objpaciente1.getNombre());
 			
@@ -60,17 +60,17 @@ public class GestionPacientesTest {
 			
 			
 			
-			System.out.println("Nombre  | Actividad | Tamaño | Especie | Raza | Genero ");
+			System.out.println("Nombre  | Actividad | Tamaï¿½o | Especie | Raza | Genero ");
 			for ( Paciente x: negociopaciente.buscarPorIdCliente(objcliente.getIdCliente())){
 				
-				System.out.println(x.getNombre() + " | "+ x.getActividad() + " | "+ x.getTamaño() + " | " + x.getEspecie() + " | " + x.getRaza() + " | " + x.getGenero());
+				System.out.println(x.getNombre() + " | "+ x.getActividad() + " | "+ x.getTamano() + " | " + x.getEspecie() + " | " + x.getRaza() + " | " + x.getGenero());
 				
 				
 			}
 			
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Fallo la inserción: " + e.getMessage());
+			Assert.fail("Fallo la inserciï¿½n: " + e.getMessage());
 		}
 		
 		System.out.println("El Paciente se ha registrado satisfactoriamente en el sistema.");
@@ -109,11 +109,11 @@ public class GestionPacientesTest {
 			
 			  Assert.assertEquals("Leonidas", objpaciente.getNombre());
 			
-			  		System.out.println("Nombre  | Actividad | Tamaño | Especie | Raza | Genero ");
+			  		System.out.println("Nombre  | Actividad | Tamaï¿½o | Especie | Raza | Genero ");
 			  
 				for ( Paciente x: negociopaciente.buscarPorIdCliente(1)){
 					
-					System.out.println(x.getNombre() + " | "+ x.getActividad() + " | "+ x.getTamaño() + " | " + x.getEspecie() + " | " + x.getRaza() + " | " + x.getGenero());
+					System.out.println(x.getNombre() + " | "+ x.getActividad() + " | "+ x.getTamano() + " | " + x.getEspecie() + " | " + x.getRaza() + " | " + x.getGenero());
 					
 				}
 			
@@ -137,10 +137,10 @@ public class GestionPacientesTest {
 				Assert.assertTrue(buscarPorNombre.size() > 0);
 				for ( Paciente x: negocio.listar()){
 					
-					System.out.println("Código de Doctor : "+x.getIdPaciente());
+					System.out.println("Cï¿½digo de Doctor : "+x.getIdPaciente());
 					System.out.println("Nombre :"+ x.getNombre());
 					System.out.println("Esterilizado:"+ x.getEsterelizado());
-					System.out.println("Tamaño:"+ x.getTamaño());
+					System.out.println("Tamaï¿½o:"+ x.getTamano());
 					System.out.println("Act :"+ x.getActividad());
 					System.out.println("Peso:"+ x.getPeso());
 					
@@ -155,9 +155,9 @@ public class GestionPacientesTest {
 					
 				}
 			} catch (DAOExcepcion e) {
-				Assert.fail("Falló el listado: " + e.getMessage());
+				Assert.fail("Fallï¿½ el listado: " + e.getMessage());
 			}
-			System.out.println("Se encontró coincidencias por nombre de Doctor");
+			System.out.println("Se encontrï¿½ coincidencias por nombre de Doctor");
 		}
 	
 	//@Test 
@@ -177,16 +177,16 @@ public class GestionPacientesTest {
 			Paciente nuevo = negociopaciente.obtener(2);
 			Assert.assertEquals(null, nuevo.getNombre());
 			
-			System.out.println("Nombre  | Actividad | Tamaño | Especie | Raza | Genero ");
+			System.out.println("Nombre  | Actividad | Tamaï¿½o | Especie | Raza | Genero ");
 
 			for ( Paciente x: negociopaciente.buscarPorIdCliente(1)){
 				
-				System.out.println(x.getNombre() + " | "+ x.getActividad() + " | "+ x.getTamaño() + " | " + x.getEspecie() + " | " + x.getRaza() + " | " + x.getGenero());
+				System.out.println(x.getNombre() + " | "+ x.getActividad() + " | "+ x.getTamano() + " | " + x.getEspecie() + " | " + x.getRaza() + " | " + x.getGenero());
 				
 			}
 			
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló la eliminición: " + e.getMessage());
+			Assert.fail("Fallï¿½ la eliminiciï¿½n: " + e.getMessage());
 		}
 		System.out.println("El Paciente ha sido Eliminado.");
 	}

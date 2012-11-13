@@ -1,13 +1,14 @@
 <%@include file="main.jsp"%>
-<%@taglib uri="http://displaytag.sf.net" prefix="display"%><%@ page
-	language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://displaytag.sf.net" prefix="display"%>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>menuCliente</title>
+<title>VeterinariaGozus</title>
 <script type="text/javascript">
 	function ocultarColumna(num, num2, ver) {
 		dis = ver ? '' : 'none';
@@ -99,7 +100,7 @@
 					</font></b></td>
 				<td bgcolor="#D1F09D"><b><font face="Verdana" size="1"
 						color="">
-							<div align="center">TAMAÑO</div>
+							<div align="center">TAMANO</div>
 					</font></b></td>
 
 
@@ -165,7 +166,7 @@
 
 					<td><b><font face="Verdana" size="1" color="">${r.nombre}</font></b></td>
 					<td><b><font face="Verdana" size="1" color="">${r.esterelizado}</font></b></td>
-					<td><b><font face="Verdana" size="1" color="">${r.tamaño}</font></b></td>
+					<td><b><font face="Verdana" size="1" color="">${r.tamano}</font></b></td>
 					<td><b><font face="Verdana" size="1" color="">${r.actividad}</font></b></td>
 					<td><b><font face="Verdana" size="1" color="">${r.peso}</font></b></td>
 					<td><b><font face="Verdana" size="1" color="">${r.fchnac}</font></b></td>
@@ -181,7 +182,7 @@
 							color="">
 								<div align="center">
 									<a href="PacienteEliminarServlet?idPaciente=${r.idPaciente}"
-										onclick="return confirm('¿Está Seguro de Eliminar al Prospecto');">Eliminar</a>
+										onclick="return confirm('Esta Seguro de Eliminar al Prospecto');">Eliminar</a>
 								</div>
 						</font></b></td>
 					<td bgcolor="#BFEA77"><b><font face="Verdana" size="1"

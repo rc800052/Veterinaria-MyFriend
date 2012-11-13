@@ -1,11 +1,14 @@
 <%@include file="ValidarSession.jsp"%>
 <%@include file="main.jsp"%>
-<%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" import="java.sql.*" errorPage=""
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Documento sin t&iacute;tulo</title>
+<title>VeterinariaGozus</title>
 
 <script language="javascript" type="text/javascript">
     //*** Este Codigo permite Validar que sea un campo Numerico
@@ -99,7 +102,7 @@ Paciente vo = (Paciente)request.getAttribute("vo");
         <td bgcolor="#D1F09D"><span class="Estilo5">TAMAÑO</span></td>
         <td bgcolor="#D1F09D"><span class="Estilo5">:</span></td>
         <td bgcolor="#D6E9DE"><label>
-          <input type="text" name="tamano" id="tamano" size="50" value="<%=vo.getTamaño() %>" maxlength="8" onKeypress="sololetras(this);"/>
+          <input type="text" name="tamano" id="tamano" size="50" value="<%=vo.getTamano() %>" maxlength="8" onKeypress="sololetras(this);"/>
         </label></td>
         <td bgcolor="#D1F09D"><span class="Estilo5">ACTIVIDAD</span></td>
         <td bgcolor="#D1F09D"><span class="Estilo5">:</span></td>
@@ -161,7 +164,7 @@ Paciente vo = (Paciente)request.getAttribute("vo");
         <tr>
         <td colspan="2" bgcolor="#CCCCCC"><label>
           <div align="center">
-            <input type="submit" name="button" id="button" value="Guardar" onclick="return confirm('¿Seguro de Guardar Los Cambios');"/>
+            <input type="submit" name="button" id="button" value="Guardar" onclick="return confirm('Seguro de Guardar Los Cambios');"/>
             </div>
         </label></td>
         <td bgcolor="#CCCCCC"><label>

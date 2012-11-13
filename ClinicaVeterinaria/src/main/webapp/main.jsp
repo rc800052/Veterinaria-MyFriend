@@ -1,9 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>VeterinariaGozus</title>
+
 <script type="text/javascript" src="css/jquery-latest.pack.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -37,8 +40,7 @@ $(document).ready(function(){
 	}
 
 </script>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>VeterinariaGozus</title>
+
 <style type="text/css">
 <!--
 #cabecera {
@@ -138,13 +140,18 @@ $(document).ready(function(){
 <div id="apDiv1">
   <table width="100%" border="0">
     <tr>
-      <td height="35" colspan="6"><div align="right"><span class="Estilo3">
-      Bienvenido:</span><b> <c:out value="${sessionScope.USUARIO_ACTUAL.nombre }" />
+      <td height="35" colspan="6"><div align="right">
+      
+      <span class="Estilo3">
+      <c:out value="${sessionScope.MSJ_EXITO_LOGIN }" /> 
+      </span><b> 
+      <!--  
+      <c:out value="${sessionScope.USUARIO_ACTUAL.nombre }" />
+      -->
       </b> <span class="Estilo3">| <a href="LogoutServlet" class="Estilo3">Salir del sistema</a> </b></span> </div></td>
     </tr>
     <tr>
-      <td height="26" colspan="6"><div align="center" class="Estilo3">MANTENIMIENTO
-        DE ENTIDADES</div></td>
+      <td height="26" colspan="6"><div align="center" class="Estilo3">BIENVENIDO</div></td>
     </tr>
     <tr>
       <td bgcolor="#6699FF"><div align="center"><span class="Estilo2"><a href="clientes.jsp">Cliente</a></span></div></td>
@@ -159,11 +166,11 @@ $(document).ready(function(){
 </font>
 <div id="apDiv98"></div>
 <div id="cabecera_izq">
-		<a href="main.jsp"><img src="_img\veterinariaGozus.jpg" alt="a"
+		<a href="main.jsp"><img src="img/veterinariaGozus.jpg" alt="a"
 			width="100%" height="96%" /></a>
 </div>
 	<div id="cabecera_der">
-<img src="_img\veterinariaGozus1.jpg" alt="a" width="100%"
+<img src="img/veterinariaGozus1.jpg" alt="a" width="100%"
 			height="100%" /></div>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
