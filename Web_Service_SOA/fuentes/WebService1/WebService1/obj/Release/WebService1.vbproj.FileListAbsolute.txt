@@ -1,0 +1,11 @@
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\bin\WebService1.dll
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\bin\WebService1.pdb
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\bin\WebService1.xml
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Release\ResolveAssemblyReference.cache
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Release\WebService1.Resources.resources
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Release\WebService1.dll
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Release\WebService1.xml
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Release\WebService1.pdb
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Release\GenerateResource.read.1.tlog

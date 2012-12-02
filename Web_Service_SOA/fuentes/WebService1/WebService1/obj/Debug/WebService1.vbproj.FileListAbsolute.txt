@@ -1,0 +1,18 @@
+c:\users\schatten\documents\visual studio 2010\Projects\WebService1\WebService1\bin\WebService1.dll
+c:\users\schatten\documents\visual studio 2010\Projects\WebService1\WebService1\bin\WebService1.pdb
+c:\users\schatten\documents\visual studio 2010\Projects\WebService1\WebService1\bin\WebService1.xml
+c:\users\schatten\documents\visual studio 2010\Projects\WebService1\WebService1\obj\Debug\WebService1.Resources.resources
+c:\users\schatten\documents\visual studio 2010\Projects\WebService1\WebService1\obj\Debug\WebService1.vbproj.GenerateResource.Cache
+c:\users\schatten\documents\visual studio 2010\Projects\WebService1\WebService1\obj\Debug\WebService1.dll
+c:\users\schatten\documents\visual studio 2010\Projects\WebService1\WebService1\obj\Debug\WebService1.xml
+c:\users\schatten\documents\visual studio 2010\Projects\WebService1\WebService1\obj\Debug\WebService1.pdb
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\bin\WebService1.dll
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\bin\WebService1.pdb
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\bin\WebService1.xml
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Debug\ResolveAssemblyReference.cache
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Debug\WebService1.Resources.resources
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Debug\WebService1.dll
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Debug\WebService1.xml
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WebService1\obj\Debug\WebService1.pdb

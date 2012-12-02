@@ -1,0 +1,12 @@
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\bin\Release\WindowsApplication1.exe.config
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\bin\Release\WindowsApplication1.exe
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\bin\Release\WindowsApplication1.pdb
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\bin\Release\WindowsApplication1.xml
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\obj\x86\Release\WindowsApplication1.Form1.resources
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\obj\x86\Release\WindowsApplication1.Resources.resources
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\obj\x86\Release\WindowsApplication1.exe
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\obj\x86\Release\WindowsApplication1.xml
+D:\upc\sistemas_distribuidos\WSNET\WebService1\WindowsApplication1\obj\x86\Release\WindowsApplication1.pdb
