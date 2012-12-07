@@ -157,7 +157,7 @@ $(document).ready(function(){
       <td bgcolor="#6699FF"><div align="center"><span class="Estilo2"><a href="clientes.jsp">Cliente</a></span></div></td>
       <td bgcolor="#6699FF"><div align="center"><span class="Estilo2"><a href="Paciente.jsp">Paciente</a></span></div></td>
       <td bgcolor="#6699FF"><div align="center"><span class="Estilo2"><a href="ProductoBuscar.jsp">Productos</a></span></div></td>
-      <td bgcolor="#6699FF"><div align="center"><span class="Estilo2"><a href="Factura.jsp">Factura</a></span></div></td>
+      <td bgcolor="#6699FF"><div align="center"><span class="Estilo2"><a href="frm_citas.jsp">Citas</a></span></div></td>
       <td bgcolor="#6699FF"><div align="center"><span class="Estilo2"><a href="Prospecto.jsp">Prospecto</a></span></div></td>
       <td bgcolor="#6699FF"><div align="center"><span class="Estilo2"><a href="Doctor.jsp">Doctor</a></span></div></td>
     </tr>
