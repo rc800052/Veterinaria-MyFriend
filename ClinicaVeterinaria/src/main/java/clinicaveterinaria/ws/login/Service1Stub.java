@@ -117,7 +117,7 @@
      * Default Constructor
      */
     public Service1Stub(org.apache.axis2.context.ConfigurationContext configurationContext) throws org.apache.axis2.AxisFault {
-        
+        //			this(configurationContext,"http://authgozus.apphb.com/Service1.asmx" );
                     this(configurationContext,"http://localhost/WebService1/Service1.asmx" );
                 
     }
@@ -126,7 +126,7 @@
      * Default Constructor
      */
     public Service1Stub() throws org.apache.axis2.AxisFault {
-        
+    	//			this("http://authgozus.apphb.com/Service1.asmx" );
                     this("http://localhost/WebService1/Service1.asmx" );
                 
     }
