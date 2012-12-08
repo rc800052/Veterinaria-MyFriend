@@ -91,3 +91,7 @@ http://upc2007hn.blogspot.com/2012/12/axis2-creacion-de-un-servicio-web.html
 Elianni Cordova
 
 http://sistemasdistribuidos-sd.blogspot.com/2012/12/rest-en-nuestro-proyecto-gozus.html
+
+Oscar Chafloque
+
+http://dsdupc12.blogspot.com/2012/12/ingenieria-reversa-con-spring-roo-1.html#!/2012/12/ingenieria-reversa-con-spring-roo-1.html
