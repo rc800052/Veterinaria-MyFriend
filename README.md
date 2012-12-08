@@ -95,3 +95,5 @@ http://sistemasdistribuidos-sd.blogspot.com/2012/12/rest-en-nuestro-proyecto-goz
 Oscar Chafloque
 
 http://dsdupc12.blogspot.com/2012/12/ingenieria-reversa-con-spring-roo-1.html#!/2012/12/ingenieria-reversa-con-spring-roo-1.html
+https://dsdupc12.blogspot.com/b/post-preview?token=NHOnfjsBAAA.Ke2VjqFst6GAgd7XO3YZmQ.Z9QS7vCdESu6fx3ahqc6bw&postId=7131565279096185444&type=POST#!/2012/12/ahora-spring-roo-con-oracle.html
+
