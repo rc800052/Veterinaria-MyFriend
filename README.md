@@ -1,11 +1,11 @@
 Veterinaria-Gozus
-====================
-
+==================
 
 UPC DSD Proyecto Veterinaria Gozus. El presente proyecto nos brinda una solución integral para registrar las citas de los pacientes desde el cloud.  Los doctores consultan en tiempo real las citas pendientes por atender. Asimismo, la veterinaria Gozus expone sus servicios de productos para el cosnumo de los carrito de compras de las veterinarias locales.
 
 
 Equipo : MyFriend
+------------------
 
 Integrantes:
 
@@ -15,9 +15,7 @@ Renzo Huertas - u201216398 http://
 
 Ricardo Campos - u800052 http://
 
-
 Elianni Córdova - u920863 http://
-
 
 Renzo Puertocarrero - u http://
 
@@ -32,6 +30,7 @@ José Díaz Díaz
 
 
 Arquitectura
+------------
 
 Para su desarrollo se uso :
 
@@ -47,11 +46,11 @@ SQL
 
 
 
-
 Usa servicios web SOAP, REST y Mensajería.
 
 
 User Story
+-----------
 
 
 Iniciar sesión:
