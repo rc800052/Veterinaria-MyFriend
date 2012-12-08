@@ -11,6 +11,8 @@ Gozus in the cloud
 3. Web Service RESTful de productos: http://gozus-rest.portoren.cloudbees.net/
 4. Base de datos "clinicaveterinaria": ec2-23-21-211-172.compute-1.amazonaws.com
 
+* Core del Negocio - Gosus Veterinara: http://gozus2.portoren.cloudbees.net
+
 Bloqs
 -----
 
