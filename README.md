@@ -61,7 +61,7 @@ Gozus in the cloud
 
 Core del Negocio
 ================
-Gosus Veterinara: http://gozus2.portoren.cloudbees.net
+Gozus Veterinara: http://gozus2.portoren.cloudbees.net
 
 
 Blogs
