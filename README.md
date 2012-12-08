@@ -13,7 +13,7 @@ Gozus in the cloud
 
 * Core del Negocio - Gosus Veterinara: http://gozus2.portoren.cloudbees.net
 
-Bloqs
+Blogs
 -----
 
 Renzo Potocarrero
