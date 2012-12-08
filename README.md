@@ -8,27 +8,23 @@ Profesor:
 
 José Díaz Díaz
 
+
 Arquitectura
-====================
+============
 
 Para su desarrollo se uso :
 
 Java
-
 PHP
-
 MySQL
-
 SQL
-
 .NET
 
 
 Usa servicios web SOAP, REST y Mensajería.
 
-
 User Story
-====================
+==========
 
 
 Iniciar sesión:
@@ -42,35 +38,36 @@ Registro de Clientes:
 Registrar nuevos clientes, previa verificación de duplicidad.
 
 
-
 Registro de Productos:
 
 Registrar productos, previa verificación de duplicidad.
-
 
 
 Citas:
 Registro y visualización de las citas pendientes de atención.
 
  
-
 Mensajería: 
 El doctor confirma la cita y se envía al cliente.
 
 
 Gozus in the cloud
-====================
+==================
 
 1. Carrito de compras: http://gozuscart.ap01.aws.af.cm/
 2. Web Service SOAP de autenticación: http://authgozus.apphb.com/Service1.asmx
 3. Web Service RESTful de productos: http://gozus-rest.portoren.cloudbees.net/
 4. Base de datos "clinicaveterinaria": ec2-23-21-211-172.compute-1.amazonaws.com
 
-* Core del Negocio - Gosus Veterinara: http://gozus2.portoren.cloudbees.net
+Core del Negocio
+================
+Gosus Veterinara: http://gozus2.portoren.cloudbees.net
 
 
 Blogs
-========Renzo Potocarrero
+=====
+
+Renzo Potocarrero
 
 http://epedsd-portoren.blogspot.com/
 
