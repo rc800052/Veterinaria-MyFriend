@@ -30,3 +30,7 @@ Ricardo Campos
 http://mipost01.blogspot.com/2012/12/servicio-resful-en-net.html#!/2012/12/servicio-resful-en-net.html
 http://mipost01.blogspot.com/2012/12/restful-utilizar-el-metodo-delete-en.html#!/2012/12/restful-utilizar-el-metodo-delete-en.html
 
+Renzo Huertas
+
+http://upc2007hn.blogspot.com/2012/12/documentar-servicios-rest.html
+http://upc2007hn.blogspot.com/2012/12/axis2-creacion-de-un-servicio-web.html
