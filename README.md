@@ -10,3 +10,21 @@ Gozus in the cloud
 2. Web Service SOAP de autenticación: http://authgozus.apphb.com/Service1.asmx
 3. Web Service RESTful de productos: http://gozus-rest.portoren.cloudbees.net/
 4. Base de datos "clinicaveterinaria": ec2-23-21-211-172.compute-1.amazonaws.com | user: gozus | pwd: 123456789
+
+Bloq
+----
+
+Renzo Potocarrero
+
+http://epedsd-portoren.blogspot.com/
+
+Omar Carpio
+
+http://ocarpio.wordpress.com/crear-web-service-soap-en-net/
+http://ocarpio.wordpress.com/publicar-en-iis/
+
+Ricardo Campos
+
+http://mipost01.blogspot.com/2012/12/servicio-resful-en-net.html#!/2012/12/servicio-resful-en-net.html
+http://mipost01.blogspot.com/2012/12/restful-utilizar-el-metodo-delete-en.html#!/2012/12/restful-utilizar-el-metodo-delete-en.html
+
