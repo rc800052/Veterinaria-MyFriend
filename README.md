@@ -37,3 +37,5 @@ http://upc2007hn.blogspot.com/2012/12/documentar-servicios-rest.html
 http://upc2007hn.blogspot.com/2012/12/axis2-creacion-de-un-servicio-web.html
 
 Elianni Cordova
+
+http://sistemasdistribuidos-sd.blogspot.com/2012/12/rest-en-nuestro-proyecto-gozus.html
