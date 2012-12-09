@@ -52,11 +52,11 @@ public class RegistrarProductoServlet extends HttpServlet {
 		try {
 				
 				if (a.isEmpty()){
-					request.setAttribute("MENSAJE", "Debe registrar la descripción.");
+					request.setAttribute("MENSAJE", "Debe registrar la descripcion.");
 				}
 				
 				if (a.trim()==""){
-					request.setAttribute("MENSAJE", "Debe registrar la descripción.");
+					request.setAttribute("MENSAJE", "Debe registrar la descripcion.");
 				}
 				
 				if (b==0){

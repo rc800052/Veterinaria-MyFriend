@@ -49,7 +49,7 @@ public class AutoCompleteJQuery extends HttpServlet {
                 out.println(cliente.getIdCliente() + "|" + cliente.getNombre());
             }
        } catch (DAOExcepcion e) {
-       	Assert.fail("Falló el listado: " + e.getMessage());
+    	   	System.out.println("Fallo el listado: " + e.getMessage());
        	
 		} finally {
            out.close();
