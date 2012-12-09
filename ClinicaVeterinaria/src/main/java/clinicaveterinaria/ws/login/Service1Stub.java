@@ -7,6 +7,8 @@
  */
         package clinicaveterinaria.ws.login;
 
+import org.apache.axis2.transport.http.HTTPConstants;
+
         
 
         /*
@@ -117,8 +119,8 @@
      * Default Constructor
      */
     public Service1Stub(org.apache.axis2.context.ConfigurationContext configurationContext) throws org.apache.axis2.AxisFault {
-        //			this(configurationContext,"http://authgozus.apphb.com/Service1.asmx" );
-                    this(configurationContext,"http://localhost/WebService1/Service1.asmx" );
+        			this(configurationContext,"http://authgozus.apphb.com/Service1.asmx" );
+    	//          this(configurationContext,"http://localhost/WebService1/Service1.asmx" );
                 
     }
 
@@ -126,8 +128,8 @@
      * Default Constructor
      */
     public Service1Stub() throws org.apache.axis2.AxisFault {
-    	//			this("http://authgozus.apphb.com/Service1.asmx" );
-                    this("http://localhost/WebService1/Service1.asmx" );
+    				this("http://authgozus.apphb.com/Service1.asmx" );
+    	//			this("http://localhost/WebService1/Service1.asmx" );
                 
     }
 
@@ -432,6 +434,7 @@
               try{
                org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[1].getName());
               _operationClient.getOptions().setAction("http://tempuri.org/ValidarUsuario");
+              _operationClient.getOptions().setProperty(HTTPConstants.CHUNKED,false);//ESTA LINEA ES NECESARIA PARA CONSUMIR AL SERVICIO EN LA NUBE
               _operationClient.getOptions().setExceptionToBeThrownOnSOAPFault(true);
 
               

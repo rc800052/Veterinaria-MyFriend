@@ -13,10 +13,12 @@
 
 	<context:component-scan base-package="clinicaveterinaria.citas" />
 	<context:annotation-config />
-
+	
+	<!-- ==============================CONFIGURACION COLAS============================== -->
+		
 	<bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
 		<property name="brokerURL">
-			<value>tcp://localhost:8161</value>
+			<value>tcp://localhost:61616</value>
 		</property>
 	</bean>
 
@@ -35,5 +37,6 @@
 	<jms:listener-container connection-factory="connectionFactory">
 		<jms:listener destination="gosusQueue" ref="citaListener" method="citaReceived" />
 	</jms:listener-container>
-
+	
+	
 </beans>

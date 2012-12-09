@@ -22,7 +22,7 @@ public class GestionDoctorTest {
 //			Assert.assertEquals("gcuchca@gmail.com", obtener.getEmail());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Fallo la inserción: " + e.getMessage());
+			Assert.fail("Fallo la insercion: " + e.getMessage());
 		}
 		
 		System.out.println("El Doctor ha sido creado.");
@@ -39,7 +39,7 @@ public class GestionDoctorTest {
 			Assert.assertEquals("gcuchca@gmail.com", obtener.getEmail());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Fallo la inserción: " + e.getMessage());
+			Assert.fail("Fallo la insercion: " + e.getMessage());
 		}
 		
 		System.out.println("El Doctor ha sido creado.");
@@ -54,7 +54,7 @@ public class GestionDoctorTest {
 			Doctor nuevo = negocio.obtener(20);
 			Assert.assertEquals("abc", nuevo.getNombre());
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló la actualización: " + e.getMessage());
+			Assert.fail("Fallo la actualizacion: " + e.getMessage());
 		}
 		System.out.println("El Doctor ha sido Actualizado.");
 	}
@@ -74,7 +74,7 @@ public class GestionDoctorTest {
 			Assert.assertTrue(listado.size() > 0);
 			for ( Doctor x: negocio.listar()){
 				
-				System.out.println("Código de Doctor : "+x.getIdDoctor());
+				System.out.println("Codigo de Doctor : "+x.getIdDoctor());
 				System.out.println("Nombre :"+ x.getNombre());
 				System.out.println("Apellido :"+ x.getApellido());
 				System.out.println("Email :"+ x.getEmail());
@@ -85,7 +85,7 @@ public class GestionDoctorTest {
 			}
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 		}
 		System.out.println("Lista de Doctor");
 	}
@@ -102,7 +102,7 @@ public class GestionDoctorTest {
 			Assert.assertEquals(null, nuevo.getNombre());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló la eliminición: " + e.getMessage());
+			Assert.fail("Fallo la eliminicion: " + e.getMessage());
 		}
 		System.out.println("El Cliente ha sido Eliminado.");
 	}
@@ -117,7 +117,7 @@ public class GestionDoctorTest {
 			Assert.assertTrue(buscarPorNombre.size() > 0);
 			for ( Doctor x: negocio.listar()){
 				
-				System.out.println("Código de Doctor : "+x.getIdDoctor());
+				System.out.println("Codigo de Doctor : "+x.getIdDoctor());
 				System.out.println("Nombre :"+ x.getNombre());
 				System.out.println("Apellido :"+ x.getApellido());
 				System.out.println("Email :"+ x.getEmail());
@@ -127,9 +127,9 @@ public class GestionDoctorTest {
 				
 			}
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 		}
-		System.out.println("Se encontró coincidencias por nombre de Doctor");
+		System.out.println("Se encontro coincidencias por nombre de Doctor");
 	}
 	
 	
