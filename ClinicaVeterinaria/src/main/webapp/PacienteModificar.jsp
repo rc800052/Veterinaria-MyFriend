@@ -33,7 +33,7 @@ function checkPass(){
   if (guess == secret){
     return true;
   } else {
-     alert("Las Contraseñas no Coinciden");
+     alert("Las Contrasenas no Coinciden");
      return false;
   }
 }
@@ -99,7 +99,7 @@ Paciente vo = (Paciente)request.getAttribute("vo");
         </label></td>
       </tr>
       <tr>
-        <td bgcolor="#D1F09D"><span class="Estilo5">TAMAÑO</span></td>
+        <td bgcolor="#D1F09D"><span class="Estilo5">TAMANO</span></td>
         <td bgcolor="#D1F09D"><span class="Estilo5">:</span></td>
         <td bgcolor="#D6E9DE"><label>
           <input type="text" name="tamano" id="tamano" size="50" value="<%=vo.getTamano() %>" maxlength="8" onKeypress="sololetras(this);"/>

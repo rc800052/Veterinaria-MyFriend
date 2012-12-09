@@ -12,7 +12,7 @@
     function Solo_Numerico(variable){
         Numer=parseInt(variable);
         if (isNaN(Numer)){
-            alert("Solo se Aceptan Números");
+            alert("Solo se Aceptan Numeros");
             return "";
             
         }
@@ -30,7 +30,7 @@ function checkPass(){
   if (guess == secret){
     return true;
   } else {
-     alert("Las Contraseñas no Coinciden");
+     alert("Las Contrasenas no Coinciden");
      return false;
   }
 }
@@ -82,7 +82,7 @@ if (event.keyCode >45 && event.keyCode  <=57) event.returnValue = false;
         </label></td>
       </tr>
       <tr>
-        <td bgcolor="#D1F09D"><span class="Estilo5">TAMAÑO</span></td>
+        <td bgcolor="#D1F09D"><span class="Estilo5">TAMANO</span></td>
         <td bgcolor="#D1F09D"><span class="Estilo5">:</span></td>
         <td bgcolor="#D6E9DE"><label>
           <input type="text" name="tamano" id="tamano" maxlength="8" onKeypress="sololetras(this);"/>

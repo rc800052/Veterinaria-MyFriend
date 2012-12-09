@@ -27,7 +27,7 @@ public class GestionClientesTest {
 			Assert.assertEquals("juan@gmail.com", obtener.getEmail());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Fallo la inserción: " + e.getMessage());
+			Assert.fail("Fallo la insercion: " + e.getMessage());
 		}
 		
 		System.out.println("El Cliente ha sido creado.");
@@ -45,7 +45,7 @@ public class GestionClientesTest {
 			Cliente nuevo = negocio.obtener(26);
 			Assert.assertEquals("Rosa Mendez", nuevo.getNombre());
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló la actualización: " + e.getMessage());
+			Assert.fail("Fallo la actualizacion: " + e.getMessage());
 		}
 	}
 	
@@ -61,7 +61,7 @@ public class GestionClientesTest {
 			Assert.assertEquals("NOTas NOTas NOTas", nuevo.getNotas());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló la actualización: " + e.getMessage());
+			Assert.fail("Fallo la actualizacion: " + e.getMessage());
 		}
 		
 		System.out.println("Las Notas del Cliente ha sido Actualizado.");
@@ -90,7 +90,7 @@ public class GestionClientesTest {
 				
 			}
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 		}
 		System.out.println("Lista de Clientes");
 	}
@@ -117,7 +117,7 @@ public class GestionClientesTest {
 
 		} catch (DAOExcepcion e) {
 
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 
 		}
 
@@ -135,7 +135,7 @@ public class GestionClientesTest {
 			Assert.assertEquals(null, nuevo.getNombre());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló la eliminición: " + e.getMessage());
+			Assert.fail("Fallo la eliminacion: " + e.getMessage());
 		}
 		System.out.println("El Cliente ha sido Eliminado.");
 	}

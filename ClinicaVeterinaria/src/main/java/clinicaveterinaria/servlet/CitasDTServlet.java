@@ -11,9 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import clinicaveterinaria.dao.Citas;
 import clinicaveterinaria.modelo.Doctor;
-import clinicaveterinaria.negocio.CitasImpl;
+import clinicaveterinaria.negocio.CitaServicioImpl;
 
 
 @WebServlet("/CitasDTServlet")
@@ -28,7 +27,7 @@ public class CitasDTServlet extends HttpServlet {
 		
 		 try {
 		 HttpSession session = request.getSession();
-		 CitasImpl ocitas = new CitasImpl();		 
+		 CitaServicioImpl ocitas = new CitaServicioImpl();		 
 		
 		  
 	    	int cod;

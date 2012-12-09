@@ -161,7 +161,7 @@ public class CitasPorClienteServlet extends HttpServlet {
 			}
 		} catch (DAOExcepcion e) {
 			
-			Assert.fail("Falló la actualización: " + e.getMessage());
+			System.out.println("Fallo la actualizacion: " + e.getMessage());
 
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
