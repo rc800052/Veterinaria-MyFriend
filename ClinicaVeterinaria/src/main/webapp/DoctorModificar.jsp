@@ -32,7 +32,7 @@ function checkPass(){
   if (guess == secret){
     return true;
   } else {
-     alert("Las Contraseñas no Coinciden");
+     alert("Las Contrasenas no Coinciden");
      return false;
   }
 }

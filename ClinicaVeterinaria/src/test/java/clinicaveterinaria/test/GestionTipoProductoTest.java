@@ -29,7 +29,7 @@ public class GestionTipoProductoTest {
 			// Assert.assertEquals("Vacuna", obtener.getTipo());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Fallo la inserción: " + e.getMessage());
+			Assert.fail("Fallo la insercion: " + e.getMessage());
 		}
 	}
 
@@ -51,7 +51,7 @@ public class GestionTipoProductoTest {
 
 		} catch (DAOExcepcion e) {
 
-			Assert.fail("Falló la actualización: " + e.getMessage());
+			Assert.fail("Fallo la actualizacion: " + e.getMessage());
 
 		}
 	}
@@ -70,7 +70,7 @@ public class GestionTipoProductoTest {
 
 		} catch (DAOExcepcion e) {
 
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 
 		}
 
@@ -93,7 +93,7 @@ public class GestionTipoProductoTest {
 
 		} catch (DAOExcepcion e) {
 
-			Assert.fail("Falló la eliminición: " + e.getMessage());
+			Assert.fail("Fallo la eliminicion: " + e.getMessage());
 
 		}
 

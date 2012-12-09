@@ -75,7 +75,7 @@ public class PacienteDAO extends BaseDAO {
 	
 	public Collection<Paciente> buscarPorIdCliente(int IdCliente)
 			throws DAOExcepcion {
-		String query = "select idPaciente, nombre, esterilizado, tama�o, actividad, peso, fchnac, especie, raza, genero, tiposangre, idCliente from paciente where idCliente=?";
+		String query = "select idPaciente, nombre, esterilizado, tamano, actividad, peso, fchnac, especie, raza, genero, tiposangre, idCliente from paciente where idCliente=?";
 		Collection<Paciente> lista = new ArrayList<Paciente>();
 		Connection con = null;
 		PreparedStatement stmt = null;
@@ -134,7 +134,7 @@ public class PacienteDAO extends BaseDAO {
 		PreparedStatement stmt = null;
 		ResultSet rs = null;
 		try {
-			String query = "select idPaciente, nombre, esterilizado, tama�o, actividad, peso, fchnac, especie, raza, genero, tiposangre, idCliente from paciente where idPaciente=?";
+			String query = "select idPaciente, nombre, esterilizado, tamano, actividad, peso, fchnac, especie, raza, genero, tiposangre, idCliente from paciente where idPaciente=?";
 			con = ConexionBD.obtenerConexion();
 			stmt = con.prepareStatement(query);
 			stmt.setInt(1, idPaciente);
@@ -174,7 +174,7 @@ public class PacienteDAO extends BaseDAO {
 	
 	public Paciente insertar(Paciente vo) throws DAOExcepcion {
 
-		String query = "insert into paciente(nombre, esterilizado, tama�o, actividad, peso, fchnac, especie, raza, genero, tiposangre, idCliente) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+		String query = "insert into paciente(nombre, esterilizado, tamano, actividad, peso, fchnac, especie, raza, genero, tiposangre, idCliente) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
 		Connection con = null;
 		PreparedStatement stmt = null;
 		ResultSet rs = null;
@@ -252,7 +252,7 @@ public class PacienteDAO extends BaseDAO {
 					
 		try {
 			con = ConexionBD.obtenerConexion();
-			String query = "select idPaciente, nombre, esterilizado, tama�o, actividad, peso, fchnac, especie,raza,genero,tiposangre from paciente order by nombre";
+			String query = "select idPaciente, nombre, esterilizado, tamano, actividad, peso, fchnac, especie,raza,genero,tiposangre from paciente order by nombre";
 			
 			
 			stmt = con.prepareStatement(query);
@@ -296,7 +296,7 @@ public class PacienteDAO extends BaseDAO {
 
 	//Actualizar Paciente
 	public Paciente actualizar(Paciente vo) throws DAOExcepcion {
-		String query = "update paciente set nombre=?, esterilizado=?, tama�o=?, actividad=?, peso=?, fchnac=?, especie=?, raza=?, genero=?, tiposangre=?, idCliente=? where idPaciente=?";
+		String query = "update paciente set nombre=?, esterilizado=?, tamano=?, actividad=?, peso=?, fchnac=?, especie=?, raza=?, genero=?, tiposangre=?, idCliente=? where idPaciente=?";
 		
 		Connection con = null;
 		PreparedStatement stmt = null;

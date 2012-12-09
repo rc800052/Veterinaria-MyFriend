@@ -61,7 +61,7 @@ public class ProspectoMostrarServlet extends HttpServlet {
 
 		} catch (DAOExcepcion e) {
 
-			Assert.fail("Fallo el listado: " + e.getMessage());
+			System.out.println("Fallo el listado: " + e.getMessage());
 
 		}
 	}
