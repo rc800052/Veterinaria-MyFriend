@@ -1,12 +1,7 @@
 package clinicaveterinaria.servlet;
 
 import java.io.IOException;
-import java.sql.Date;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Collection;
-import java.util.GregorianCalendar;
-import java.util.Locale;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -16,18 +11,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.web.context.support.WebApplicationContextUtils;
+
 import clinicaveterinaria.citas.source.CitaService;
-import clinicaveterinaria.dao.CitaDAO;
-import clinicaveterinaria.dao.Citas;
-import clinicaveterinaria.excepcion.DAOExcepcion;
 import clinicaveterinaria.modelo.BeanCitas;
-import clinicaveterinaria.modelo.Cita;
-import clinicaveterinaria.modelo.Doctor;
-import clinicaveterinaria.negocio.CitasImpl;
-
-import java.text.DateFormat;
-
-import java.text.ParseException;
+import clinicaveterinaria.negocio.CitaServicioImpl;
 
 
 @WebServlet("/ServletCitas")
@@ -78,7 +67,7 @@ public class ServletCitas extends HttpServlet {
 			HttpServletResponse response) {
 		System.out.println("comienza la ejecucion del metodo actualizacion");
       
-		CitasImpl cita = new CitasImpl();
+		CitaServicioImpl cita = new CitaServicioImpl();
 		BeanCitas vo = new BeanCitas();
 		
 	    try {
@@ -106,7 +95,8 @@ public class ServletCitas extends HttpServlet {
 	    	vo = cita.insertarcita(vo);
 	    	
 	    	//SE ENVIA A LA COLA
-	    	CitaService citaService = new CitaService();
+	    	ApplicationContext ctx = WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
+	    	CitaService citaService = (CitaService) ctx.getBean("citaService");
 	    	citaService.sendCita(vo);	    	
 	    	
 	    	RequestDispatcher rd = request.getRequestDispatcher("frm_citas.jsp");
@@ -117,22 +107,19 @@ public class ServletCitas extends HttpServlet {
 			
 		}catch(Exception e){
 		    System.out.println("Hubo error **************************" + e.getMessage());
-			e.printStackTrace();
-			
-	    }
- 	
-		
+			e.printStackTrace();			
+	    }		
 	}
 
 
 
 	private void buscar(HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
-		 CitasImpl ocitas = new CitasImpl();
+		 CitaServicioImpl ocitas = new CitaServicioImpl();
 		
 		  try {
 			    // Captura los parametros que llegan de la Web.
-			  HttpSession session = request.getSession();
+			  	HttpSession session = request.getSession();
 			  
 		    	String cod1;
 		    	cod1 = request.getParameter("txt_Codigo");

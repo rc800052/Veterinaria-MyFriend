@@ -63,7 +63,7 @@ public class ClienteServlet extends HttpServlet {
 
 		} catch (DAOExcepcion e) {
 
-			Assert.fail("Falló el listado: " + e.getMessage());
+			System.out.println("Fallo el listado: " + e.getMessage());
 
 		}
 		

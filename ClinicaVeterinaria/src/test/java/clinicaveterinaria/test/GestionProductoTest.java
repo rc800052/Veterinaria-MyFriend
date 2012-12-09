@@ -24,7 +24,7 @@ public class GestionProductoTest {
 			Assert.assertEquals("VACUNA CONTRA EL TETANO", nuevo.getProducto());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Fallo la inserción: " + e.getMessage());
+			Assert.fail("Fallo la insercion: " + e.getMessage());
 		}
 	}
 
@@ -46,7 +46,7 @@ public class GestionProductoTest {
 
 		} catch (DAOExcepcion e) {
 
-			Assert.fail("Falló la actualización: " + e.getMessage());
+			Assert.fail("Fallo la actualizacion: " + e.getMessage());
 
 		}
 	}
@@ -69,7 +69,7 @@ public class GestionProductoTest {
 
 		} catch (DAOExcepcion e) {
 
-			Assert.fail("Falló la eliminición: " + e.getMessage());
+			Assert.fail("Fallo la eliminicion: " + e.getMessage());
 
 		}
 
@@ -90,7 +90,7 @@ public class GestionProductoTest {
 			}
 				
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 		}
 	}
 
@@ -100,7 +100,7 @@ public class GestionProductoTest {
 		GestionProducto negocio = new GestionProducto();
 
 		try {
-			Collection<Producto> listado = negocio.buscarServicio("Baño");
+			Collection<Producto> listado = negocio.buscarServicio("Bano");
 			System.out.println(listado.size());
 			Assert.assertTrue(listado.size() > 0);
 			
@@ -109,7 +109,7 @@ public class GestionProductoTest {
 			}
 				
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 		}
 	}
 
@@ -128,7 +128,7 @@ public class GestionProductoTest {
 			}
 				
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 		}
 	}
 

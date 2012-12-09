@@ -45,7 +45,7 @@ public class GestionCitasTest {
 			Assert.assertEquals("555-5555", cita1.getTelefono());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Fallo la inserción: " + e.getMessage());
+			Assert.fail("Fallo la insercion: " + e.getMessage());
 		}
 		System.out.println("La cita ha sido registrada.");
 	}
@@ -77,7 +77,7 @@ public class GestionCitasTest {
 			Assert.assertEquals("555-5555", cita1.getTelefono());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Fallo la inserción: " + e.getMessage());
+			Assert.fail("Fallo la insercion: " + e.getMessage());
 		}
 		System.out.println("La cita ha sido re-programada.");
 	}
@@ -117,7 +117,7 @@ public class GestionCitasTest {
 			  Assert.assertEquals("A", cita1.getEstado());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Fallo la inserción: " + e.getMessage());
+			Assert.fail("Fallo la insercion: " + e.getMessage());
 		}
 		System.out.println("La cita se anulo satisfactoriamente.");
 	}
@@ -143,7 +143,7 @@ public class GestionCitasTest {
 			}
 				
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 		}
 		System.out.println("Lista de Citas por Clientes");
 	}
@@ -168,7 +168,7 @@ public class GestionCitasTest {
 			}
 				
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 		}
 		System.out.println("Lista de Citas por Clientes");
 	}

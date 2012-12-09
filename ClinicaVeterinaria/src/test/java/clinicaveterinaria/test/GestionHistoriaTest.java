@@ -23,7 +23,7 @@ public class GestionHistoriaTest {
 //			Assert.assertEquals("presenta malestar", nuevo.getNotaMedica());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Fallo la inserción: " + e.getMessage());
+			Assert.fail("Fallo la insercion: " + e.getMessage());
 		}
 		
 		System.out.println("El Historia ha sido creado.");
@@ -39,16 +39,16 @@ public class GestionHistoriaTest {
 			System.out.println(listado.size());
 			Assert.assertTrue(listado.size() > 0);
 			for ( Historia x: negocio.listar()){		
-				System.out.println("Código Historia: "+x.getIdHistoria());
-				System.out.println("Nota Médica:"+ x.getNotaMedica());
-				System.out.println("Imagen Médica:"+ x.getImagenMedica());
+				System.out.println("Codigo Historia: "+x.getIdHistoria());
+				System.out.println("Nota Medica:"+ x.getNotaMedica());
+				System.out.println("Imagen Medica:"+ x.getImagenMedica());
 				System.out.println("Condicion especial:"+ x.getCondicionEspecial());
-				System.out.println("Código Cita:"+ x.getCita_idCita());
+				System.out.println("Codigo Cita:"+ x.getCita_idCita());
 				System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"); 
 				
 			}
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 		}
 		System.out.println("Lista de Historia");
 	}
@@ -63,7 +63,7 @@ public class GestionHistoriaTest {
 			//Assert.assertTrue(obtener.size() > 0);
 
 		}  catch (DAOExcepcion e) {
-			Assert.fail("Falló el listado: " + e.getMessage());
+			Assert.fail("Fallo el listado: " + e.getMessage());
 		}
 		System.out.println("Lista de Historia");
 	}
@@ -79,7 +79,7 @@ public class GestionHistoriaTest {
 			Assert.assertEquals(null, nuevo.getIdHistoria());
 
 		} catch (DAOExcepcion e) {
-			Assert.fail("Falló la eliminición: " + e.getMessage());
+			Assert.fail("Fallo la eliminicion: " + e.getMessage());
 		}
 		System.out.println("El Cliente ha sido Eliminado.");
 	}
