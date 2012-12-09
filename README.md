@@ -73,9 +73,7 @@ http://epedsd-portoren.blogspot.com/
 
 Omar Carpio
 
-http://ocarpio.wordpress.com/crear-web-service-soap-en-net/
-
-http://ocarpio.wordpress.com/publicar-en-iis/
+http://ocarpio.wordpress.com
 
 Ricardo Campos
 
@@ -92,6 +90,7 @@ Elianni Cordova
 
 http://sistemasdistribuidos-sd.blogspot.com/2012/12/rest-en-nuestro-proyecto-gozus.html
 http://sistemasdistribuidos-sd.blogspot.com/2012/12/introduccion-amazon-web-services.html
+http://sistemasdistribuidos-sd.blogspot.com/2012/12/comandos-basicos-de-git.html
 
 Oscar Chafloque
 
